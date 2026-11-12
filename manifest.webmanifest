@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Mijn App",
-  "short_name": "Mijn App",
-  "description": "Versleutelde Progressive Web App",
+  "name": "PWA Core Test",
+  "short_name": "PWA Core Test",
+  "description": "Geïsoleerde testomgeving voor PWA Core",
   "lang": "nl",
   "start_url": "./",
   "scope": "./",
