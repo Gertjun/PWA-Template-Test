@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <!-- Externe API nodig? Voeg het domein toe aan connect-src. -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://api.github.com; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'">
-  <title>Mijn App</title>
+  <title>PWA Core Test</title>
   <meta name="description" content="Versleutelde Progressive Web App">
   <meta name="theme-color" content="#f5f6f8" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)">
@@ -15,7 +15,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="Mijn App">
+  <meta name="apple-mobile-web-app-title" content="PWA Core Test">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/app.css">
   <script type="module" src="js/main.js"></script>
@@ -35,7 +35,7 @@
   <main id="screen-setup" class="screen screen-center" hidden>
     <div class="auth-card">
       <img src="icons/icon-192.png" alt="" class="auth-logo" width="72" height="72">
-      <h1 data-app-name>Mijn App</h1>
+      <h1 data-app-name>PWA Core Test</h1>
       <p class="muted">Je gegevens worden versleuteld op dit apparaat bewaard en kunnen via je eigen private GitHub-repo synchroniseren.</p>
 
       <div class="segmented" role="tablist">
@@ -85,7 +85,7 @@
   <main id="screen-lock" class="screen screen-center" hidden>
     <div class="auth-card">
       <img src="icons/icon-192.png" alt="" class="auth-logo" width="72" height="72">
-      <h1 data-app-name>Mijn App</h1>
+      <h1 data-app-name>PWA Core Test</h1>
       <button id="btn-bio-unlock" class="btn btn-primary btn-block" type="button" hidden>Ontgrendel met Face ID / passkey</button>
       <div id="lock-divider" class="divider" hidden><span>of</span></div>
       <form id="form-unlock" class="stack">
@@ -106,7 +106,7 @@
       <h1 class="app-brand">
         <img src="icons/icon-192.png" alt="" class="app-brand-icon" width="36" height="36">
         <span class="app-brand-text">
-          <span class="app-title" data-app-name>Mijn App</span>
+          <span class="app-title" data-app-name>PWA Core Test</span>
           <span class="app-brand-version" data-app-version></span>
         </span>
       </h1>
@@ -256,7 +256,7 @@
           <section id="settings-about" class="settings-section" data-title="Over deze app" hidden>
             <div class="setting-line">
               <div>
-                <p><span data-app-name>Mijn App</span> · versie <span id="app-version"></span></p>
+                <p><span data-app-name>PWA Core Test</span> · versie <span id="app-version"></span></p>
                 <p id="version-warning" class="form-error" hidden></p>
               </div>
               <button id="btn-check-update" class="btn" type="button">Zoek naar updates</button>
